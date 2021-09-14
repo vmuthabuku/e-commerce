@@ -1,0 +1,49 @@
+.navbar .navbar-menu .navbar-start .navbar-item {
+    text-decoration: none;
+}
+
+.navbar .navbar-menu .navbar-start .navbar-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: rgb(1, 1, 14);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.navbar .navbar-menu .navbar-start .navbar-item:hover::after {
+    transform: scaleX(1);
+}
+
+.cart .cartsize {
+    height: 22px;
+    width: 22px;
+}
+
+.hero .heroo {
+    display: flex;
+    margin: 1em 0.7rem 0 0.7rem;
+    justify-content: space-between;
+}
+
+.hero .heroo article {
+    width: 50%
+}
+
+.hero .heroo article p {
+    font-size: 150%;
+    color: grey;
+}
+
+.hero .heroo .hero__image img {
+    height: 500px;
+    width: 100%;
+}
+
+.hero .heroo article button {
+    margin-top: 0.5rem;
+}
