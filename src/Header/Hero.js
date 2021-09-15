@@ -18,7 +18,7 @@ export default function Hero() {
 
          </article>               
         <div  className="hero__image">
-            <img  src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            <img  src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="hero" />
         </div>   
         </div>
        
