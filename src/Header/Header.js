@@ -1,6 +1,7 @@
     import React from 'react';
     import Cart from './Cart'
     import './header.css'
+    import 'bulma/css/bulma.min.css';
 
     const Header = () => {
         const [isActive, setisActive] = React.useState(false);

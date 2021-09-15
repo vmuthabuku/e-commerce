@@ -1,0 +1,31 @@
+.product__list {
+    display: flex;
+    margin: 3rem 5rem 2rem 5rem;
+    justify-content: space-between;
+}
+
+.button__shop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.button:hover {
+    color: lightcoral;
+}
+
+.product img {
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.product img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.product .product__details {
+    display: flex;
+    justify-content: space-between;
+}
