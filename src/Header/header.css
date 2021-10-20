@@ -47,3 +47,18 @@
 .hero .heroo article button {
     margin-top: 0.5rem;
 }
+
+@media (max-width: 600px) {
+    .hero .heroo {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .heroo article {
+        width: 100%
+    }
+    .hero .heroo .hero__image img {
+        margin-top: 1rem;
+        height: 200px;
+        width: 100%;
+    }
+}

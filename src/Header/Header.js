@@ -1,6 +1,7 @@
     import React from 'react';
     import Cart from './Cart'
     import './header.css'
+    import { Link } from 'react-router-dom'
     import 'bulma/css/bulma.min.css';
 
     const Header = () => {
@@ -31,8 +32,13 @@
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
         <div className="navbar-start">
-        <a href="# " className="navbar-item">Home</a>
-            <a href="# " className="navbar-item">Items</a>
+            <a href="# " className="navbar-item">
+                <Link to='/products'>Home</Link>
+            </a>        
+            <a href="# " className="navbar-item">
+                <Link to='/products'>Product</Link>
+            </a>      
+            
         </div>
         <div class="navbar-end">
     <div class="navbar-item">
