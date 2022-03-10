@@ -1,4 +1,4 @@
-export const FeaturedProductsList = [
+export const ProductsList = [
     {
         "id":1,
         "url":"https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",

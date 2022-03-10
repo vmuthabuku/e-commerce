@@ -4,6 +4,8 @@ import Hero from './Header/Hero'
 import FeaturedProduct from './Products/FeaturedProduct'
 import Footer from './Footer/Footer'
 import 'bulma/css/bulma.min.css';
+// import Wrapper from './Header/Wrapper'
+
 
 function App() {
   return (
